@@ -20,3 +20,18 @@ After installing, initialize your newly-installed Miniconda. The following comma
 Check the version
 
 `conda -V`
+
+
+Create an environment 
+
+```
+conda create -n rlenv python=3.8
+```
+
+```
+conda activate myenv
+```
+
+```
+conda conda deactivate
+```
